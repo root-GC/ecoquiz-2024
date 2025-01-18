@@ -1,0 +1,46 @@
+body{
+    background-color: #58b328;
+    text-align: center;
+    color:white;
+    /* justify-content: center; */
+    /*font-family:;*/
+    font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+}
+
+#div_principal{
+    width: 825px;
+    height: 375px;
+    border: 5px solid  #eabd46;
+    border-radius: 20px;
+    margin:auto;
+    padding: 15px;
+    position: relative;
+}
+
+button{
+    border-radius: 20px;
+    color: #1f714b;
+    width: 150px;
+    height: 50px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.content{
+    background-color:  #eabd46;
+    width: 700px;
+    height: 100px;
+   /* margin-left: 10%;*/
+    border: 5px solid  #eabd46;
+    border-radius: 50px;
+    /*overflow: scroll;*/
+    padding: 0;
+}
+
+#content1{
+    margin-left: 5%;
+}
+#content2{
+    margin-left: 15%;
+}

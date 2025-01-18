@@ -1,0 +1,83 @@
+body{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+.arquivo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;  
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.Error-message {
+    margin-left: 20px;
+    height: 50%;
+    background-color: #58b328;
+    align-content: center;
+    border-radius: 15px;  
+    color: white;
+    font-size: 50px;
+    /* font-weight: bold; */
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+#solar {
+    margin-left: 0;
+    grid-column: 1; 
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+.Error-message {
+    grid-column: 2;  
+    text-align: center;  
+    /* width: 500px;
+     padding-right: 10px;  */
+}
+
+#eolic {
+    /* margin-left: 50%; */
+    /* margin-right: 10px; */
+    grid-column: 3; 
+    padding-right:  100px;
+}
+
+.Resp-page{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;
+}
+
+.Resp-page .text-answer {
+    width: 800px;
+    border-radius: 15px;  
+    /* font-weight: bold; */
+    /* font-size: 32px; */
+    text-align: center;
+}
+
+.Btn-proceed {
+    /*  margin-top: 10px;   */
+    padding: 10px 20px;  
+    font-size: 30px; 
+    font-weight: bolder;
+    background-color: #58b328;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.Btn-proceed:hover {
+    background-color:#eabd46;  
+    border:3px solid #58b328;
+}

@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+#message{
+    background-color: green;
+}
+#button{
+    background-color: green; 
+}
+body{
+    background: white;
+    font-size: 32px;
+    font-family:  sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.Resp-page{
+    top: 5em !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+}
+.Resp-page > .Error-message{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(179, 23, 23);
+    border-radius: 14pt;
+    border: none;
+    display: flex;
+    align-content: center;
+    margin-bottom: 2em;
+    -webkit-box-shadow: inset -2px 3px 21px -3px rgba(41,5,5,1);
+-moz-box-shadow: inset -2px 3px 21px -3px rgba(41,5,5,1);
+box-shadow: inset -2px 3px 21px -3px rgba(41,5,5,1);
+}
+.Error-message > .Text-message{
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    align-self: center;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.Resp-page > .text-answer{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-answer > p.text{
+    text-align: center;
+}
+
+.proceed{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    padding: 3em;
+
+}
+
+.proceed > button.Btn-proceed{
+    background-color: rgb(179, 23, 23);
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 0;
+    -webkit-box-shadow: -2px 3px 21px -3px rgba(56,20,20,1);
+    -moz-box-shadow: -2px 3px 21px -3px rgba(56,20,20,1);
+    box-shadow: -2px 3px 21px -3px rgba(56,20,20,1);  
+}
+
+button.Btn-proceed:hover{
+    padding: 1px;
+    transition: 1s;
+    margin: 1px;
+}
+
+
+
+
+
+
+

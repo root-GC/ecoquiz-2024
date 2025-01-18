@@ -1,0 +1,68 @@
+body {
+    background-color: #bf774d;
+    padding: 0px;
+    margin: auto 100px;
+    font-family: Arial, sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+h1,
+p,
+.texto-curiosidade {
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 2% 25%;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.borda-mae {
+    border: 2px solid #eabd46;
+    border-radius: 20px;
+    max-height: fit-content;
+    width: 100%;
+}
+
+.container-borda {
+    margin: 15px 10px;
+}
+
+.borda-curiosidade {
+    margin-bottom: 20px;
+    border: 19px solid#eabd46;
+    border-radius: 90px;
+    width: 75%;
+    margin-left: 10px;
+    background-color: #eabd46;
+}
+
+.texto-curiosidade {
+    margin: 2% 30%;
+    font-size: 20px;
+    font-weight: 540;
+}
+
+.butoes {
+    margin-top: 3%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    margin-right: 1%;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 900;
+    padding: 0.2% 2%;
+    color: #1f714b;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}

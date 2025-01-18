@@ -1,0 +1,52 @@
+body{
+    background-color: #374f59;
+    text-align: center;
+    color:white;
+    /*font-family:;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#div_principal{
+    width: 825px;
+    height: 375px;
+    border: 5px solid  #1f714b;
+    border-radius: 20px;
+    margin:auto;
+    padding: 15px;
+}
+
+button{
+    border-radius: 20px;
+    color: #1f714b;
+    width: 150px;
+    height: 50px;    
+    font-size: 25px;  
+    font-weight: bolder;
+}
+p{
+    margin-top: 37px;
+}
+.content{
+    background-color:  #1f714b;
+    width: 700px;
+    height: 100px;
+   /* margin-left: 10%;*/
+    border: 5px solid  #1f714b;
+    border-radius: 50px;
+    /*overflow: scroll;*/
+    padding: 0;
+}
+#game{
+    font-family: 'Bebas neue', cursive;
+    color:#eabd46;
+    font-size: 40px;
+}
+
+#content1{
+    margin-left: 5%;
+}
+#content2{
+    margin-left: 15%;
+}
+

@@ -1,0 +1,131 @@
+body{
+    background-color:#eabd46;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header{
+    margin-top:0px;
+}
+#conteiner{
+    background-color: #eabd46;
+    height:60px;
+    width:100%;
+    margin-top:0px;
+    display: flex; /* Usar Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+}
+#menu{
+    height:100px;
+    width:50%;
+    margin-top:0px;
+    background-color:#bf774d;
+    position:absolute;
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top:15px;
+    margin:0px;
+}
+#menu li{
+    color:white;
+    background-color:#1f714b;
+    border-radius: 12px;
+    margin-left:30px;
+    justify-content: center;
+    margin: 0 55px; /* Ajustar o espaçamento entre os itens do menu */
+    padding: 15px 20px; /* Adicionar algum padding para melhorar o layout */
+}
+#menu a {
+    text-decoration: none; /* Remover o sublinhado dos links */
+    color: white; /* Definir a cor do texto dos links */
+}
+.conteiner2{
+    margin:20px;
+    display:flex;
+}
+.box1{
+    margin:10px;
+}
+.box2{
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    margin:10px;
+}
+#img_lamp{
+    width:230px;
+    height:230px;
+}
+#img_tomada{
+    width:230px;
+    height:230px;
+}
+#img_solar{
+    width:230px;
+    height:230px;  
+}
+#img_lamp2{
+    width:230px;
+    height:230px;
+}
+#img_eolic{
+    width:230px;
+    height:230px;  
+}
+#img_factory{
+    width:230px;
+    height:230px;  
+}
+#img_logo{
+    width:1000px;
+    height:500px;
+    margin:20px;
+    /background-color: white;
+}
+#img_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Garante que a imagem mantenha suas proporções */
+  }
+#jogar{
+    width:300px;
+    height:73px;
+    background-color:#bf774d;
+    border-radius: 30px;
+    position: absolute;
+    top: 75%;
+    left: 41%;
+    align-items: center;
+    align-content: center; 
+    overflow: hidden;
+    padding: 0 10px;
+}
+p{
+    line-height: 60px;
+    margin-top: 7px;
+    font-size:40px;
+    text-align: center;
+    color:white;
+    background-color:#1f714b;
+    border-radius: 25px;
+}
+#p_jogar:hover{
+    background-color:#bf774d;
+}
+#jogar:hover{
+    border: #1f714b 7px solid;
+}
+#rodape{
+    width:100%;
+    height:400px;
+    background-color:#1f714b;
+    margin:0px;
+}

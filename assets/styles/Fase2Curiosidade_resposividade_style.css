@@ -1,0 +1,58 @@
+@media screen and (max-width:1560px) {
+    .texto-curiosidade {
+        margin: 2% 28%;
+    }
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+div{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+@media screen and (max-width:1440px) {
+    .texto-curiosidade {
+        margin: 2% 26%;
+    }
+}
+
+
+@media screen and (max-width:1280px) {
+    .texto-curiosidade {
+        margin: 2% 23%;
+    }
+
+}
+
+@media screen and (max-width:1170px) {
+    .texto-curiosidade {
+        margin: 2% 20%;
+    }
+}
+
+
+@media screen and (max-width:1080px) {
+    .texto-curiosidade {
+        margin: 2% 15%;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .texto-curiosidade {
+        margin: 2% 14%;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+}
+
+p {
+    font-size: 20px;
+    
+}
+
+/* So para ajustar um pouco. :) */

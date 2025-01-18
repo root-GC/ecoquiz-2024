@@ -1,0 +1,74 @@
+body {
+    background-color: #eabd46;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#principal {
+    width: 1113px;
+    height: 650px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#imags {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente as imagens no centro */
+}
+
+.img {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 33.33%; /* Largura das divs igual */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#info {
+    width: 100%;
+    height: 330px;
+    border: 5px #58b328 solid;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    color: #1f714b;
+}
+
+#info::before {
+    content: "\A ----------DESENVOLVIDO POR-----------\A Génio Nassone Cossa\A Ester Melina Elias Mapaco\A Arney Nhadumbuque\A Kevin Jacob Chambule\A Leonel Chihale\A Samuel Massinga \A ----------DESIGN---------- \A Génio Nassone Cossa\A ----------FRONT-END----------\A Génio Nassone Cossa\A Ester Melina Elias Mapaco\A Arney Nhadumbuque\A Kevin Jacob Chambule\ASamuel Massinga\A ----------BACK-END----------\A Leonel Chihale\A Génio Nassone Cossa\A-----------BIBLIOGRAFIA-----------\A ENERGIAS RENOVÁVEIS: pisonprojetos.com.br\A RECICLAGEM: merchanplasticos.com.br\A CONSERVASÃO DA ÁGUA: www.santander.pt \A-----------AGRADECIMENTOS----------\A UPM Maputo\A FET";
+    position: absolute;
+    white-space: pre;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: scrollCredits 15s linear forwards;
+}
+
+@keyframes scrollCredits {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 100%;
+    }
+}
+
+#imgajust {
+    width: 100%;
+    max-width: 500px; /* Limita a largura máxima da imagem */
+}
+
+#img1 img, #img2 img, #img3 img {
+    max-width: 100%; /* Imagens se ajustam ao tamanho da div */
+    height: auto;
+}
