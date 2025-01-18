@@ -59,7 +59,7 @@ function iniciarCronometro(tempo, footerElement, paginaNome) {
       clearInterval(countdownInterval);
       
         alert(`Tempo na página ${paginaNome} acabou!`);
-        window.location.href = "/QUIZAPP/home/index2.html"; // Redireciona para a página inicial
+        window.location.href = "/QUIZAPP/home/index.html"; // Redireciona para a página inicial
     }
   }, 1000);
 }
@@ -75,7 +75,7 @@ function reiniciar(tempo, paginaNome) {
 
       if (paginaNome === "final") {
         alert("Clique OK para reiniciar o jogo!");
-        window.location.href = "/QUIZAPP/home/index2.html"; // Reinicia o jogo
+        window.location.href = "/home/index.html"; // Reinicia o jogo
       }
     }
   }, 1000); // A cada 1 segundo
@@ -115,9 +115,9 @@ function alternarLogo() {
 
   setInterval(() => {
     if (logoAtual) {
-      logoElement.src = '/QUIZAPP/assets/images/logo2.png'; // Troca para logo2.png
+      logoElement.src = '/assets/images/logo2.png'; // Troca para logo2.png
     } else {
-      logoElement.src = '/QUIZAPP/assets/images/lololol.png'; // Troca de volta para lololol.svg
+      logoElement.src = '/assets/images/lololol.png'; // Troca de volta para lololol.svg
     }
     logoAtual = !logoAtual; // Alterna o estado
   }, 500); // A cada 2 segundos
